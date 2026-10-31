@@ -12,7 +12,7 @@ Game **Flappy Bird** berbasis **Java Swing GUI** dengan arsitektur berorientasi 
 ## 1. Desain dan Fungsi Program
 
 ### A. Deskripsi Umum dan Pemisahan Tanggung Jawab (*Separation of Concerns*)
-Aplikasi ini merupakan reka ulang (*remake*) dari game legendaris **Flappy Bird (2013)** yang dibangun menggunakan antarmuka grafis Java Swing. Seluruh sistem dirancang menerapkan prinsip pemrograman berorientasi objek yang kuat (*Object-Oriented Programming*) dengan memisahkan kode ke dalam modul-modul independen:
+Aplikasi ini merupakan reka ulang (*remake*) dari game **Flappy Bird (2013)** yang dibangun menggunakan antarmuka grafis Java Swing. Seluruh sistem dirancang menerapkan prinsip pemrograman berorientasi objek (*Object-Oriented Programming*) dengan memisahkan kode ke dalam modul-modul independen:
 - **Model Data Entitas (`Player`, `Pipe`)**: Merepresentasikan karakteristik, ukuran, koordinat, gambar, dan hitbox karakter serta rintangan.
 - **Komponen Presentasi Kanvas (`View`)**: Mengelola rendering grafis 60 FPS di atas `JPanel` dan menampung komponen `JLabel` skor real-time.
 - **Pengendali Alur & Fisika (`Logic`)**: Mengatur timer game loop, gravitasi, pergerakan pipa, deteksi tabrakan, status game over, serta pendengar input keyboard (`KeyListener`).
